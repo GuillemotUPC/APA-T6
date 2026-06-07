@@ -47,21 +47,6 @@ class Alumno:
         return f'{self.numIden}\t{self.nombre}\t{self.media():.1f}'
 
 
-def leeAlumnos(ficAlum):
-    """
-    Lee un fichero de texto con los datos de todos los alumnos y devuelva un 
-    diccionario en el que la clave sea el nombre de cada alumno y su contenido 
-    el objeto Alumno correspondiente.
-
-    >>> alumnos = leeAlumnos('alumnos.txt')
-    >>> for alumno in alumnos:
-    ...     print(alumnos[alumno])
-    171\tBlanca Agirrebarrenetse\t9.5
-    23\tCarles Balcells de Lara\t4.9
-    68\tDavid Garcia Fuster\t7.0
-    """
-    
-import re
 
 def leeAlumnos(ficAlum):
     """
